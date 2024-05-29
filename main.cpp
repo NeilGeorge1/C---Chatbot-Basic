@@ -15,6 +15,10 @@ int main(){
         string phrase;
         getline(cin, phrase);
 
+        if(phrase == "stop" || "Stop"){
+            break;
+        }
+
         //if(phrase == "stop" || "Stop") break;
 
         cout << "AI-> ";

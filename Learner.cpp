@@ -21,6 +21,8 @@ void Learner::respond(string phrase){
         }
     }
 
+    #include "Voice.h"
+
     memory.close();
     memory.open("memory/memory.txt", ios::in | ios::app);
     memory << phrase << endl;

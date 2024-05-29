@@ -1,16 +1,16 @@
 #pragma once
 
 #include <iostream>
-#include <fstream>
 #include <string>
-//#include "Voice.h"
+#include "Voice.h"
 
 using namespace std;
 
-class Learner{
-    public:
-    void respond(string phrase);
-    void say(string phrase);
+class Learner {
+public:
+    inline void respond(string phrase);
+
+    inline void say(string phrase);
 
     Voice voice;
 };

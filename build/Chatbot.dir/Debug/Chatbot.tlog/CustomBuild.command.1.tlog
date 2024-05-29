@@ -1,0 +1,10 @@
+^D:\NEIL\CODE\C++ CHATBOT BASIC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Neil/Code/C++ Chatbot Basic" "-BD:/Neil/Code/C++ Chatbot Basic/build" --check-stamp-file "D:/Neil/Code/C++ Chatbot Basic/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
