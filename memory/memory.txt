@@ -148,3 +148,11 @@ what is your name
 My name is Basic Chatbot
 what is ur name
 Im Basic Chatbot
+Stop
+Please Stop
+ok
+Great to hear!! Do you Have any other questions?
+Hey
+how are you
+do you have any friends
+As I am an AI Chatbot I dont have emotions but sure my developers are my friends
